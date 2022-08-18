@@ -1,11 +1,14 @@
 Guzzle Stopwatch Middleware
 ===========================
 
+This is a takeover drop-in fork of https://github.com/csarrazi/guzzle-stopwatch-middleware which seems to be abandoned.  
+We left the namespace as `Csa` to assure drop-in replacement.
+
 Installation
 ------------
 
 ```
-composer req csa/guzzle-stopwatch-middleware
+composer req freshcells/guzzle-stopwatch-middleware
 ```
 
 Upgrade
