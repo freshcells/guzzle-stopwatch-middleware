@@ -22,8 +22,8 @@ use Symfony\Component\Stopwatch\Stopwatch;
  */
 class StopwatchMiddleware
 {
-    private $stopwatch;
-    private $increments = [];
+    private Stopwatch $stopwatch;
+    private array $increments = [];
 
     public function __construct(Stopwatch $stopwatch)
     {

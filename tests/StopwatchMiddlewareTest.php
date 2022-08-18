@@ -17,9 +17,10 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Promise;
 use GuzzleHttp\Psr7\Response;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Stopwatch\Stopwatch;
 
-class StopwatchMiddlewareTest extends \PHPUnit_Framework_TestCase
+class StopwatchMiddlewareTest extends TestCase
 {
     public function testSynchronousRequest()
     {
